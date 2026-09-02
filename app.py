@@ -77,6 +77,9 @@ pg = st.navigation(
         download_page,
         nba_page
         ], 
+        "NBA 資料": [
+                nba_page
+                ]
     },
     position="sidebar",#position 設定側邊欄位置 (可以是 "sidebar" 或 "top")
     expanded=True #expanded 設定側邊欄是否預設展開 (True 或 False)
