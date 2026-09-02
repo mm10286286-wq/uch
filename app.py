@@ -75,7 +75,7 @@ pg = st.navigation(
         department_page,
         sell_person_page,
         download_page,
-        nba_page
+    
         ], 
         "NBA 資料": [
                 nba_page
