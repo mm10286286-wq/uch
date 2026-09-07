@@ -53,6 +53,7 @@ chart_page = st.Page("page/chart.py", title="部門比較頁", icon="📊")
 department_page = st.Page("page/department.py", title="業務員比較頁", icon="📈",default=True  #這個default=True 就是設定這個頁面為預設頁面
                     )
 sell_person_page = st.Page("page/sale_person.py", title="業務員分析頁", icon="🧑‍💼")
+predict_page = st.Page("page/predict.py", title="Iris 分析頁", icon="🌸")
 download_page = st.Page("page/download.py", title="報表下載頁", icon="📥")
 nba_page = st.Page("page/nba.py", title="NBA 資料頁", icon="🏀")
 
@@ -79,7 +80,10 @@ pg = st.navigation(
         ], 
         "NBA 資料": [
                 nba_page
-                ]
+                ],
+        "iris_分析": [
+            predict_page
+        ],
     },
     position="sidebar",#position 設定側邊欄位置 (可以是 "sidebar" 或 "top")
     expanded=True #expanded 設定側邊欄是否預設展開 (True 或 False)
