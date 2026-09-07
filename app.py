@@ -9,7 +9,7 @@ import streamlit as st
 # 網頁設定
 # ============================================================
 st.set_page_config(
-    page_title="公司資料分析系統",
+    page_title="公司資料系統",
     page_icon="🏢",
     layout="wide",
     # 確保預設狀態為展開
